@@ -1,0 +1,8 @@
+human_name=input('Enter name: ')
+print(f'\nhello {human_name.lower()}, would you like to learn some Python today?')
+print(f'\nhello {human_name.upper()}, would you like to learn some Python today?')
+print(f'\nhello {human_name.title()}, would you like to learn some Python today?')
+print(f'\nhello \t{human_name},\n"would you like to learn some Python today?"')
+print(f'\nhello {human_name.lstrip()}, would you like to learn some Python today?')
+print(f'\nhello {human_name.rstrip()}, would you like to learn some Python today?')
+print(f'\nhello {human_name.strip()}, would you like to learn some Python today?')
